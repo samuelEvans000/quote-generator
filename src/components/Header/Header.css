@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+button{
+    color: #fff;
+    font-weight: 200;
+    background-color: transparent;
+    font-size: larger;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+button:hover{
+    border: 1px solid #fff;
+}
+
+button:focus{
+    font-weight: bold;
+}

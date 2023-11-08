@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 8%;
+    background-color: #d85454;
+    /* padding: 20px 10px 20px 10px; */
+    border-radius: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.quote{
+    color: #fff;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 400;
+
+}
+.author{
+    color: #fff;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.author, .quote{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.next-button{
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+}
+
+.next{
+    border-radius: 50px;
+    color: #fff;
+    background-color: green;
+    
+}
